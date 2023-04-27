@@ -3,3 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.key-pad-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+input[type='text'] {
+  background-color: #858694;
+  text-align: right;
+  padding: 12px 3px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+.key-btn {
+  padding: 15px 30px;
+  font-size: 10px;
+  background-color: #e0e0e0;
+  border: 1px solid #cacaca;
+}
+
+.key-btn:nth-of-type(4n),
+.key-btn:last-child {
+  background-color: #f5913e;
+}
+
+.key-btn:nth-of-type(17) {
+  grid-column: span 2;
+}
