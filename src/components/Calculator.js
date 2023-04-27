@@ -1,12 +1,8 @@
 import React from 'react';
-import PropType from 'prop-types';
-
-const KeyPad = ({ keypad }) => (
-  <button className="key-btn" type="button">{keypad}</button>
-);
+import KeyPad from './KeyPad';
 
 function Calculator() {
-  const keyArr = ['AC', '+/-', '%', '+', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+  const keyArr = ['AC', '+/-', '%', '/', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 
   return (
     <div className="container">
@@ -21,9 +17,5 @@ function Calculator() {
     </div>
   );
 }
-
-KeyPad.propTypes = {
-  keypad: PropType.string.isRequired,
-};
 
 export default Calculator;
