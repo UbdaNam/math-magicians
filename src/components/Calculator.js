@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import KeyPad from './KeyPad';
-import calculate from '../logic/calculate.js';
+import calculate from '../logic/calculate';
 
 function Calculator() {
   const keyArr = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
