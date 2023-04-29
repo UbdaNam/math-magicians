@@ -14,7 +14,7 @@ function Calculator() {
   };
 
   return (
-    <div className="calc-container">
+    <div className="calc-container flex-center">
       <div className="calculator">
         <input type="text" name="result" id="result" value={currentData.next || currentData.operation || currentData.total || '0'} readOnly />
         <div className="key-pad-container">

@@ -5,19 +5,19 @@
 }
 
 .main-container {
+  gap: 5%;
+  height: 100vh;
+}
+
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5%;
-  height: 100vh;
 }
 
 /* Calculator */
 
 .calc-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 50%;
 }
 
@@ -64,9 +64,6 @@ input[type='text']:focus {
 /* Quote */
 
 .quote-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 2rem;
   width: 50%;
 }

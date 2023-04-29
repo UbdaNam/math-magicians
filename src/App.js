@@ -4,7 +4,7 @@ import Quote from './components/quote';
 
 function App() {
   return (
-    <div className="main-container">
+    <div className="main-container flex-center">
       <Calculator />
       <Quote />
     </div>
