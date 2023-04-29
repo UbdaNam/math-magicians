@@ -4,11 +4,21 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
+.main-container {
+  gap: 5%;
   height: 100vh;
+}
+
+.flex-center {
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Calculator */
+
+.calc-container {
+  width: 50%;
 }
 
 .calculator {
@@ -49,4 +59,11 @@ input[type='text']:focus {
 
 .key-btn:nth-of-type(17) {
   grid-column: span 2;
+}
+
+/* Quote */
+
+.quote-container {
+  padding: 2rem;
+  width: 50%;
 }
