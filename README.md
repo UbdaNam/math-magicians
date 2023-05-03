@@ -1,4 +1,3 @@
-# Math Magicians
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -23,16 +22,23 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Math Magicians] <a name="about-project">
+
 Hi there! Welcome to my Math Magicians</a>
 
 This is a Math Magicians projects that's made for math enthusiasts that includes calculator. Math Magicians also generates random math-related quotes.
 
-## 🛠 Built With 
+## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack 
-- React
+### Tech Stack <a name="tech-stack"></a>
 
-### Key Features 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
 
 - **[Layout]**
 - **[Calculator feature]**
@@ -54,13 +60,13 @@ In order to run this project you need to install Node.js, Web browser, and code 
 
 Clone this repository to your desired folder:
 
-``` snippet
+```snippet
   git clone https://github.com/UbdaNam/math-magicians.git
 ```
 
 ### Install
 
-``` snippet
+```snippet
   npm install
 ```
 
@@ -77,12 +83,14 @@ In the project directory, you can run:
 ## 👥 Author <a name="authors"></a>
 
 👤 **Ubda Nam**
+
 - GitHub: [@UbdaNam](https://github.com/UbdaNam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-## Future Features
+
+## Future Features <a name="future-features"></a>
 
 - [ ] **[Add contact page]**
 - [ ] **[Add simple math questions]**
@@ -90,7 +98,8 @@ In the project directory, you can run:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## 🤝 Contributions
+
+## 🤝 Contribution <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -112,5 +121,6 @@ If you like this project please give it a star. If you have any recommandations 
 
 I would like to thank microverse in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll get back to it as soon as possible.
 
-## 📝 License
+## 📝 License <a name="license"></a>
+
 This project is [MIT](./LICENSE) licensed.
