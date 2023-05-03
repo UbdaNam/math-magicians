@@ -1,8 +1,11 @@
 import React from 'react';
 import PropType from 'prop-types';
+import style from '../styles/KeyPad.module.css';
 
 const KeyPad = ({ keypad, handleClick }) => (
-  <button onClick={handleClick} className="key-btn" type="button">{keypad}</button>
+  <button onClick={handleClick} className={style['key-btn']} type="button">
+    {keypad}
+  </button>
 );
 
 KeyPad.propTypes = {
