@@ -38,19 +38,19 @@ function Calculator() {
     <div className={`${style['calc-container']} ${style['flex-center']}`}>
       <h2>Let&apos;s do some math!</h2>
       <div className={style.calculator}>
-        <input
-          type="text"
-          name="result"
-          id="result"
-          value={
-            currentData.next
-            || currentData.operation
-            || currentData.total
-            || '0'
-          }
-          readOnly
-        />
         <div className={style['key-pad-container']}>
+          <input
+            type="text"
+            name="result"
+            id="result"
+            value={
+              currentData.next
+              || currentData.operation
+              || currentData.total
+              || '0'
+            }
+            readOnly
+          />
           {keyArr.map((key) => (
             <KeyPad
               handleClick={(e) => handleClick(currentData, e.target.textContent)}

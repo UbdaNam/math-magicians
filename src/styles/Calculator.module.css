@@ -1,6 +1,7 @@
 .calc-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
 .calculator {
@@ -10,18 +11,18 @@
 }
 
 .key-pad-container {
+  height: 53vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 input[type="text"] {
-  display: flex;
-  align-self: stretch;
+  grid-column: span 4;
   background-color: #858694;
   text-align: right;
-  padding: 12px 3px;
+  padding: 8px 5px;
   color: #fff;
-  font-size: 16px;
+  font-size: calc(1vh + 0.8rem);
   border: none;
 }
 
