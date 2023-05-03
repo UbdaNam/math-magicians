@@ -18,6 +18,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -76,7 +77,9 @@ Install this project with: Any code editor which you are comfortable with
 
 In the project directory, you can run:
 
-### `npm start`
+```snippet
+  npm start
+```
 
 <!-- AUTHORS -->
 
