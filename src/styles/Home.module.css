@@ -1,0 +1,10 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.intro-content {
+  display: grid;
+  gap: 1rem;
+}

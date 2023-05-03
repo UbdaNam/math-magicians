@@ -1,0 +1,31 @@
+.calc-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.key-pad-container {
+  height: 53vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+input[type="text"] {
+  grid-column: span 4;
+  background-color: #858694;
+  text-align: right;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: calc(1vh + 0.8rem);
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
