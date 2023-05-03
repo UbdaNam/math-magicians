@@ -1,9 +1,9 @@
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Calculator from "./components/Calculator";
-import Home from "./components/Home";
-import Layout from "./components/Layout";
-import Quote from "./components/Quote.js";
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Calculator from './components/Calculator';
+import Home from './components/Home';
+import Layout from './components/Layout';
+import Quote from './components/Quote';
 
 function App() {
   return (
