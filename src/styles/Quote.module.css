@@ -1,9 +1,0 @@
-.quote-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  font-size: calc(1vh + 0.9rem);
-  width: 100%;
-  height: 100%;
-}
